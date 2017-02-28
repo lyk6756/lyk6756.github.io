@@ -50,7 +50,7 @@ jekyll-archives:
 #   shortname: lyk6756
 
 # Google analytics
-# google_analytics: UA-88059258-1
+google_analytics: UA-88059258-2
 
 # Category descriptions (for archive pages)
 descriptions:
