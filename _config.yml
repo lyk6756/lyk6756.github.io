@@ -30,7 +30,7 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-paginate: 8
+paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
