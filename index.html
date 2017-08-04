@@ -21,7 +21,7 @@ layout: default
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+      <p>{{ post.content | strip_html | truncate: 50 }}</p>
     </section>
     <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%Y年%m月%d日" }} • <a href="https://lyk6756.github.io{{ post.url }}#disqus_thread">0 评论</a></div>
