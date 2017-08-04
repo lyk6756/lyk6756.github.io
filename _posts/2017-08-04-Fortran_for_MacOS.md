@@ -3,9 +3,9 @@ layout: post
 title:  "在MacOS下搭建Fortran开发环境"
 date:   2017-08-04
 author: 李宇琨
-categories: Python
-tags: Selenium 爬虫
-cover:  ""
+categories: Fortran
+tags: Intel Xcode
+cover:  "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSMzQyLFdLcXXnuAAPWW7uwirx8cM_pVh09OCc4Z66Ug2TSm7QTUHtNBGJ3u89-AEVEF9anLU-f-LBWRihBjnI_Q2JI76fVEvpu2_kB72BfXeuBKPshY9gdJunSal0h6UdcIvsCh-qFHH1tb8SvFPyLBJMje_Q0xytHtlncfdP0DkjROFhRbtKnFtA?width=1687&height=809&cropmode=none"
 ---
 
 # 前言
@@ -79,7 +79,7 @@ $ source /opt/intel/bin/compilervars.sh <arg>
 1. 打开或者新建一个 命令行工具应用 工程，在选择语言时选择C或C++；
 ![新建工程](https://software.intel.com/sites/default/files/did_feeds_images/A8B3860F-5287-4E4C-AC9E-1C8AF07194E6/A8B3860F-5287-4E4C-AC9E-1C8AF07194E6-imageId=C85BB269-0409-4261-BE9B-087EF6CCF016.png)
 
-2. 在`Build Rules`选项卡中添加新的编译规则：`Process`->`Fortran source files`，`Using`->`Intel® Fortran Compiler Latest Release`；如果Xcode中看不到关于Intel® Fortran Compiler的选项，可以参考https://software.intel.com/en-us/node/677955
+2. 在`Build Rules`选项卡中添加新的编译规则：`Process`->`Fortran source files`，`Using`->`Intel® Fortran Compiler Latest Release`；如果Xcode中看不到关于Intel® Fortran Compiler的选项，可以参考[https://software.intel.com/en-us/node/677955](https://software.intel.com/en-us/node/677955)
 ![修改编译规则](https://software.intel.com/sites/default/files/did_feeds_images/A8B3860F-5287-4E4C-AC9E-1C8AF07194E6/A8B3860F-5287-4E4C-AC9E-1C8AF07194E6-imageId=685680A1-8434-4C8C-88F1-3AFF4A4E76D7.png)
 
 3. 将工程中原本的C或C++源代码文件清楚，并添加Fortran源代码文件`Fortran Fixed Format File`或`Fortran Free Format File`；
@@ -95,9 +95,8 @@ dyld: Library not loaded: @rpath/libmkl_intel_lp64.dylib
 1. 采用静态库进行编译。
 
 在`Build Settings`中找到`Intel® Fortran Compiler Latest Release - Runtime`条目下的`Intel Runtime Libraries`，将选项从`Default`或`Dynamic Libraries`改为`Static Libraries`。
-Intel Runtime Libraries
 
-2. 如果需要采用动态库或共享库进行编译，就需要对环境变量`DYLD_LIBRARY_PATH`进行设置。具体设置方法可以参考https://software.intel.com/en-us/node/677959
+2. 如果需要采用动态库或共享库进行编译，就需要对环境变量`DYLD_LIBRARY_PATH`进行设置。具体设置方法可以参考[https://software.intel.com/en-us/node/677959](https://software.intel.com/en-us/node/677959)
 
 
 # 延伸阅读
