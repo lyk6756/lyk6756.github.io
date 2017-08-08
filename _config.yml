@@ -46,8 +46,8 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus:
-#   shortname: lyk6756
+disqus:
+  shortname: lyk6756cn
 
 # Google analytics
 google_analytics: UA-88059258-2
