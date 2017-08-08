@@ -8,6 +8,21 @@ tags: Intel Xcode
 cover:  "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSMzQyLFdLcXXnuAAPWW7uwirx8cM_pVh09OCc4Z66Ug2TSm7QTUHtNBGJ3u89-AEVEF9anLU-f-LBWRihBjnI_Q2JI76fVEvpu2_kB72BfXeuBKPshY9gdJunSal0h6UdcIvsCh-qFHH1tb8SvFPyLBJMje_Q0xytHtlncfdP0DkjROFhRbtKnFtA?width=1687&height=809&cropmode=none"
 ---
 
+<!-- TOC -->
+
+- [前言](#前言)
+- [部署平台](#部署平台)
+- [安装步骤](#安装步骤)
+    - [安装Xcode及Command Line Tools](#安装Xcode及Command Line Tools)
+    - [下载安装Intel Parallel Studio XE](#下载安装Intel Parallel Studio XE)
+- [配置](#配置)
+    - [准备工作](#准备工作)
+    - [在Xcode中运行Fortran](#在Xcode中运行Fortran)
+    - [Troubleshooting](#Troubleshooting)
+- [延伸阅读](#延伸阅读)
+
+<!-- TOC -->
+
 # 前言
 
 Fortran语言作为世界上最早出现的计算机高级程序设计语言，历经了几十年的发展和积累，目前依旧广泛应用在科学和工程计算领域。
@@ -42,7 +57,7 @@ $ xcode-select --install
 ```
 根据弹出的提示完成安装即可。
 
-## 下载安装Intel Parallel Studio XE Composer Edition for Fortran macOS
+## 下载安装Intel Parallel Studio XE
 
 Intel Parallel Studio XE是付费软件，一般用户可以下载提供30天免费体验的评估版本。
 
@@ -84,7 +99,7 @@ $ source /opt/intel/bin/compilervars.sh <arg>
 
 3. 将工程中原本的C或C++源代码文件清楚，并添加Fortran源代码文件`Fortran Fixed Format File`或`Fortran Free Format File`；
 
-## Troubleshooting: `Library not loaded: @rpath/libmkl_intel_lp64.dylib`
+## Troubleshooting
 
 如果对编译好的可执行文件运行时，在输出窗口出现如下错误：
 ```
