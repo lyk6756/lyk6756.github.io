@@ -56,7 +56,7 @@ cover:  "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSM
 
 **由于Intel Parallel Studio XE Version 2017 Update 4 并不能提供对VS2017最新版本的支持，需要前往[Visual Studio Dev Essentials section](https://www.visualstudio.com/dev-essentials/)下载VS2017 15.0版本的安装器。**随着Intel Parallel Studio XE的后续升级，将提供对VS2017最新版本的支持。
 
-根据[Parallel Studio XE 2017: Getting Started with the Intel® Fortran Compiler 17.0 for Windows*](https://software.intel.com/en-us/get-started-with-fortran-compiler-17.0-for-windows-parallel-studio-xe-2017)和[Installing Visual Studio 2015 for Use with Intel Compilers](https://software.intel.com/en-us/articles/installing-visual-studio-2015-for-use-with-intel-compilers)，为了使Visual Studio 2015与接下来安装的Intel C++ and Fortran Compilers for Windows*（即Intel Parallel Studio XE 2017套件）适配，需要在安装界面勾选VS对C++的支持，即"使用C++的桌面开发"选项（Desktop development with C++)。
+根据[Parallel Studio XE 2017: Getting Started with the Intel® Fortran Compiler 17.0 for Windows](https://software.intel.com/en-us/get-started-with-fortran-compiler-17.0-for-windows-parallel-studio-xe-2017)和[Installing Visual Studio 2015 for Use with Intel Compilers](https://software.intel.com/en-us/articles/installing-visual-studio-2015-for-use-with-intel-compilers)，为了使Visual Studio 2015与接下来安装的Intel C++ and Fortran Compilers for Windows（即Intel Parallel Studio XE 2017套件）适配，需要在安装界面勾选VS对C++的支持，即"使用C++的桌面开发"选项（Desktop development with C++)。
 
 ![安装Visual Studio 2015_1](https://software.intel.com/sites/default/files/managed/8b/68/community1_0.png)
 
