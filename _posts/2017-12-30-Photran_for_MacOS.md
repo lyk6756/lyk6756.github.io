@@ -131,6 +131,16 @@ codesign -s gdb-cert /usr/local/bin/gdb
 echo "set startup-with-shell off" >> ~/.gdbinit
 ```
 
+## Troubleshooting
+
+如果在执行了以上步骤之后仍然不能够顺利运行gdb，可以考虑关闭SIP：
+
+1. 重启系统并按住`Command`+`R`，进入恢复模式；
+2. 在使用工具中启动终端，并执行命令`csrutil disable`;
+3. 关闭终端并重启系统，重新创建证书并签名。
+
+在终端中执行`csrutil status`可以查看当前SIP的运行情况；重复以上步骤执行`csrutil enable`可以重新开启SIP。
+
 
 # 延伸阅读
 
