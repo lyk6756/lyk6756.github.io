@@ -5,7 +5,7 @@ date:   2018-01-30
 author: 李宇琨
 categories: 
 tags: 
-cover:  ""
+cover:  "https://i.ytimg.com/vi/hLFYvtL_nZM/maxresdefault.jpg"
 ---
 
 
