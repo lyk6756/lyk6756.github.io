@@ -155,3 +155,5 @@ echo "set startup-with-shell off" >> ~/.gdbinit
 * [Installing GDB on MacOS Sierra - Oscar Alsing](https://www.oscaralsing.com/installing-gdb-on-macos-sierra/)
 * [mac上eclipse用gdb调试](https://www.cnblogs.com/yinxiangpei/articles/3897701.html)
 * [Install gdb on macOS Sierra 10.12.2 - YouTube](https://www.youtube.com/watch?v=AoDSUadbl-M)
+* [How To Install Fortran Eclipse MacOS](https://www.youtube.com/watch?v=HakTEhU3Q9U)
+* [Creating a Fortran project in Eclipse - YouTube](https://www.youtube.com/watch?v=IjjZjITwbXE)
