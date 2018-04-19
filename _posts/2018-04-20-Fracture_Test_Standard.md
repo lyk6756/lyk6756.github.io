@@ -3,10 +3,10 @@ layout: post
 title:  "金属材料及其焊接接头的断裂试验标准"
 date:   2018-04-20
 author: 李宇琨
-categories:
-tags:
+categories: Fracture
+tags: Testing Weld
 cover:  "https://www.boatdesign.net/attachments/92909/"
---
+---
 
 
 # 相关专题
