@@ -64,7 +64,6 @@ cover:  "https://www.boatdesign.net/attachments/92909/"
 * [ASTM E606/E606M](https://www.astm.org/Standards/E606.htm) Standard Test Method for Strain-Controlled Fatigue Testing
 * [ASTM E2368](https://www.astm.org/Standards/E2368.htm) Standard Practice for Strain Controlled Thermomechanical Fatigue Testing
 * [ASTM E647](https://www.astm.org/Standards/E647.htm) Standard Test Method for Measurement of Fatigue Crack Growth Rates
-* [ASTM E468](https://www.astm.org/Standards/E468.htm) Standard Practice for Presentation of Constant Amplitude Fatigue Test Results for Metallic Materials
 * [ASTM E1949](https://www.astm.org/Standards/E1949.htm) Standard Test Method for Ambient Temperature Fatigue Life of Metallic Bonded Resistance Strain Gages
 * [ASTM E739](https://www.astm.org/Standards/E739.htm) Standard Practice for Statistical Analysis of Linear or Linearized Stress-Life (S-N) and Strain-Life (ε-N) Fatigue Data
 * [ASTM E1049](https://www.astm.org/Standards/E1049.htm) Standard Practices for Cycle Counting in Fatigue Analysis
