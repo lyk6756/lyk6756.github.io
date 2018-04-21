@@ -11,6 +11,7 @@ cover:  "https://www.boatdesign.net/attachments/92909/"
 
 # 相关专题
 
+* [ASTM Subcommittee E08.05](https://www.astm.org/COMMIT/SUBCOMMIT/E0805.htm) on Cyclic Deformation and Fatigue Crack Formation
 * [ASTM Subcommittee E08.06](https://www.astm.org/COMMIT/SUBCOMMIT/E0806.htm) on Crack Growth Behavior
 * [ASTM Subcommittee E08.07](https://www.astm.org/COMMIT/SUBCOMMIT/E0807.htm) on Fracture Mechanics
 * [ASTM Subcommittee E28.07](https://www.astm.org/COMMIT/SUBCOMMIT/E2807.htm) on Impact Testing
@@ -23,7 +24,7 @@ cover:  "https://www.boatdesign.net/attachments/92909/"
 
 * [ASTM E1823](https://www.astm.org/Standards/E1823.htm) Standard Terminology Relating to Fatigue and Fracture Testing
 * [ASTM A370](https://www.astm.org/Standards/A370.htm) Standard Test Methods and Definitions for Mechanical Testing of Steel Products
-
+* [ASTM E561](https://www.astm.org/Standards/E561.htm) Standard Test Method for KR Curve Determination
 
 # 金属材料断裂韧性试验标准
 
@@ -55,6 +56,33 @@ cover:  "https://www.boatdesign.net/attachments/92909/"
 * [ISO 14556:2015](https://www.iso.org/standard/63814.html) Metallic materials -- Charpy V-notch pendulum impact test -- Instrumented test method
 * [ISO 26843:2015](https://www.iso.org/standard/65516.html) Metallic materials -- Measurement of fracture toughness at impact loading rates using precracked Charpy-type test pieces
 
+
+# 金属材料疲劳试验标准
+
+* [ASTM E466](https://www.astm.org/Standards/E466.htm) Standard Practice for Conducting Force Controlled Constant Amplitude Axial Fatigue Tests of Metallic Materials
+* [ASTM E468](https://www.astm.org/Standards/E468.htm) Standard Practice for Presentation of Constant Amplitude Fatigue Test Results for Metallic Materials
+* [ASTM E606/E606M](https://www.astm.org/Standards/E606.htm) Standard Test Method for Strain-Controlled Fatigue Testing
+* [ASTM E2368](https://www.astm.org/Standards/E2368.htm) Standard Practice for Strain Controlled Thermomechanical Fatigue Testing
+* [ASTM E647](https://www.astm.org/Standards/E647.htm) Standard Test Method for Measurement of Fatigue Crack Growth Rates
+* [ASTM E468](https://www.astm.org/Standards/E468.htm) Standard Practice for Presentation of Constant Amplitude Fatigue Test Results for Metallic Materials
+* [ASTM E1949](https://www.astm.org/Standards/E1949.htm) Standard Test Method for Ambient Temperature Fatigue Life of Metallic Bonded Resistance Strain Gages
+* [ASTM E739](https://www.astm.org/Standards/E739.htm) Standard Practice for Statistical Analysis of Linear or Linearized Stress-Life (S-N) and Strain-Life (ε-N) Fatigue Data
+* [ASTM E1049](https://www.astm.org/Standards/E1049.htm) Standard Practices for Cycle Counting in Fatigue Analysis
+* [ASTM E1942](https://www.astm.org/Standards/E1942.htm) Standard Guide for Evaluating Data Acquisition Systems Used in Cyclic Fatigue and Fracture Mechanics Testing
+* [ASTM E2472](https://www.astm.org/Standards/E2472.htm) Standard Test Method for Determination of Resistance to Stable Crack Extension under Low-Constraint Conditions
+
+* [ISO 1099:2017](https://www.iso.org/standard/67847.html) Metallic materials -- Fatigue testing -- Axial force-controlled method
+* [ISO 12106:2017](https://www.iso.org/standard/64687.html) Metallic materials -- Fatigue testing -- Axial-strain-controlled method
+* [ISO 12107:2012](https://www.iso.org/standard/50242.html) Metallic materials -- Fatigue testing -- Statistical planning and analysis of data
+* [ISO 12108:2012](https://www.iso.org/standard/42815.html) Metallic materials -- Fatigue testing -- Fatigue crack growth method
+* [ISO 12111:2011](https://www.iso.org/standard/45583.html) Metallic materials -- Fatigue testing -- Strain-controlled thermomechanical fatigue testing method
+* [ISO 12110-1:2013](https://www.iso.org/standard/54712.html) Metallic materials -- Fatigue testing -- Variable amplitude fatigue testing -- Part 1: General principles, test method and reporting requirements
+* [ISO 12110-2:2013](https://www.iso.org/standard/54713.html) Metallic materials -- Fatigue testing -- Variable amplitude fatigue testing -- Part 2: Cycle counting and related data reduction methods
+
+
+# 金属焊缝疲劳试验标准
+
+* [ISO/TR 14345:2012](https://www.iso.org/standard/24112.html) Fatigue -- Fatigue testing of welded components -- Guidance
 
 # 参考资料
 
