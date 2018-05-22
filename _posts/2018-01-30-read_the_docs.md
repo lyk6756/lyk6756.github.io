@@ -120,3 +120,4 @@ Read the Docs是一个开源的项目，可以免费地在GitHub上获取到[项
 * [使用sphinx记笔记](http://jwch.sdut.edu.cn/book/tool/UseSphinx.html) / [reStructuredText 简明教程](http://jwch.sdut.edu.cn/book/rst.html)
 * [A beginner’s guide to writing documentation](http://docs.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 * [Why You Shouldn’t Use “Markdown” for Documentation](http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/)
+* [Lightweight Markup: Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode - Hyperpolyglot](http://hyperpolyglot.org/lightweight-markup)
