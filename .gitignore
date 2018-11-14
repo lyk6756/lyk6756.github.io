@@ -1,11 +1,14 @@
 .DS_Store
 
 # Compiled site
-_site
+_site/
 
 # Sass garbage
-.sass-cache
+.sass-cache/
 
 # Bundler
 .bundle/
 vendor/
+
+.jekyll-cache/
+.jekyll-metadata
