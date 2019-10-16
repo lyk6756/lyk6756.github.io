@@ -5,7 +5,7 @@ date:   2019-10-16
 author: 李宇琨
 categories: MATLAB
 tags: UTF8
-cover:  "https://pic3.zhimg.com/v2-3661bd8883f020e1560ba73d8064bf44_1200x500.jpg"
+cover:  ""
 ---
 
 # 部署平台
