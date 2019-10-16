@@ -3,7 +3,7 @@
 gems:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jemoji
 
 exclude:
@@ -30,10 +30,16 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-paginate: 10
-paginate_path: "/page:num/"
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
+
+# Pagination Settings
+# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/page/:num/"
+  sort_reverse: true
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
