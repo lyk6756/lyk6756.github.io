@@ -4,7 +4,7 @@ title:  "将MATLAB的字符集编码更改为UTF-8"
 date:   2019-10-16
 author: 李宇琨
 categories: MATLAB
-tags: MATLAB
+tags: UTF8
 cover:  "https://pic3.zhimg.com/v2-3661bd8883f020e1560ba73d8064bf44_1200x500.jpg"
 ---
 
@@ -13,7 +13,6 @@ cover:  "https://pic3.zhimg.com/v2-3661bd8883f020e1560ba73d8064bf44_1200x500.jpg
 * Windows 10 64-bit
 
 * MATLAB R2019b (Version 9.7.0.1190202)
-
 
 # 查看当前编码方式
 
@@ -31,7 +30,6 @@ current = slCharacterEncoding()
 ```
 
 返回当前 MATLAB 字符集编码。
-
 
 # 修改字符集编码
 
