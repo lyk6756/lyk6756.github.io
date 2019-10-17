@@ -1,7 +1,8 @@
 ---
 layout: page
-title: 关于
+title: About
 permalink: /about/
+main_nav: true
 ---
 
 <img src="{{ site.baseurl }}/assets/profile.png" title="At KAIST" class="profile">

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "博文"
+title: "Posts"
 permalink: /posts/
+main_nav: true
 ---
 
 {% for category in site.categories %}
@@ -9,7 +10,7 @@ permalink: /posts/
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
-      > {{ desc.desc }}
+      <p class="desc"><em>{{ desc.desc }}</em></p>
     {% endif %}
   {% endfor %}
   <ul class="posts-list">
@@ -18,7 +19,7 @@ permalink: /posts/
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </strong>
-      <span class="post-date">- {{ post.date | date: "%Y年%m月%d日" }}</span>
+      <span class="post-date">- {{ post.date | date_to_long_string }}</span>
     </li>
   {% endfor %}
   </ul>
