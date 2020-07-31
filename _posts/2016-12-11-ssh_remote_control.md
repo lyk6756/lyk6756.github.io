@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title: "SSH Remote Control to a Linux Server"
+key: 20161211
+lang: en
+tags: Linux
 ---
 
 # What is SSH

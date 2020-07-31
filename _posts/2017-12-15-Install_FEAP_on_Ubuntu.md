@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: article
 title:  "在Linux平台上安装配置FEAP"
-date:   2017-12-15
 author: 李宇琨
-categories: Fortran
-tags: FEAP
+key: 20171215
+lang: zh
+tags: FEAP Fortran Linux
 cover:  "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSMzQyLFdLcXXnuAAPWW7uwirx8cM_pVh09OCc4Z66Ug2TSm7QTUHtNBGJ3u89-AEVEF9anLU-f-LBWRihBjnI_Q2JI76fVEvpu2_kB72BfXeuBKPshY9gdJunSal0h6UdcIvsCh-qFHH1tb8SvFPyLBJMje_Q0xytHtlncfdP0DkjROFhRbtKnFtA?width=1687&height=809&cropmode=none"
 ---
 

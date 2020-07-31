@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Build a Blog on GitHub Pages Using Jekyll"
+key: 20161117
+lang: en
+tags: Jekyll
 ---
 
 # Choose your solution

@@ -1,22 +1,18 @@
 ---
-layout: post
+layout: article
 title:  "为Jekyll添加Google Analytics（分析）服务"
-date:   2017-03-01
 author: 李宇琨
-categories: Jekyll
-tags:	jekyll
-cover:  "https://p3peqw-dm2305.files.1drv.com/y3mxpVytTtUi2cE_mU2XfHE7L2RDOVs7HqDLSbVhLaLgHClZZ_np5ZKKlOHiNE7MyDJpBtnkfVps7l4KLrRcYXRizN-Ec0GFJvDtzdvY6dg6E0w6pyjVtuitmTQfXK5vdhw5As2dCvBscRo0l-HQPYZXp9ztNuA8D1qjkljcjlSa-8?width=1280&height=720&cropmode=none"
+key: 2017030101
+lang: zh
+tags:	Jekyll
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: "https://p3peqw.dm.files.1drv.com/y4mfQ_j5BP1fAmWXeWBrugRvSj4aN1J0Mc_nZkNg4b17a-1EzOf9-N7gNFu7j61opP5utKskQBdAOOLnTbFN5XNO0V0xYe9OasrEEa6Pw1xtO48M4uvB8kJDvDsvmvvHz4AWY5qSLkPNaKwrhehSWe0f746TLHoHq1KLnDl1WUSjQe8_ZGAM-ee-FU1LhuwxHD1Yuc0-_DMWtkdS6jtQCoyAw?width=1280&height=720&cropmode=none"
 ---
-
-<!-- TOC -->
-
-- [什么是Google Analytics](#什么是google-analytics)
-- [Analytics（分析）使用入门](#analytics分析使用入门)
-- [设置Google Analytics（分析）跟踪](#设置google-analytics分析跟踪)
-- [检查网络跟踪代码设置](#检查网络跟踪代码设置)
-- [延伸阅读](#延伸阅读)
-
-<!-- /TOC -->
 
 # 什么是Google Analytics
 

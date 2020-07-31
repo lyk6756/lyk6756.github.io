@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: article
 title:  "将MATLAB的字符集编码更改为UTF-8"
-date:   2019-10-16
 author: 李宇琨
-categories: MATLAB
-tags: UTF8
-cover:  ""
+key: 20191016
+lang: zh
+tags: MATLAB
 ---
 
 # 部署平台

@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title: "Consistent Unit Systems in FEA"
+key: 20161201
+lang: en
+tags: ABAQUS
 ---
 
 | Symbol | Quantity | Dimension | N‐m SI | N‐mm SI | in‐lb System | ft‐lb System |

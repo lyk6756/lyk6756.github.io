@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title: "On Low-cycle Fatigue in Abaqus 2016 Documentation"
+key: 2017030102
+lang: en
+tags: ABAQUS
 ---
 
 # Abaqus Analysis User's Guide

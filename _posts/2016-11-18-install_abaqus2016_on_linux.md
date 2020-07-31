@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Install Abaqus2016 on Linux (Ubuntu 16.04 64bit)"
-baseurl: "/Abaqus/"
+key: 20161118
+lang: en
+tags: ABAQUS
 ---
 
 # Preparative: Install necessary packages

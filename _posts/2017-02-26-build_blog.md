@@ -1,29 +1,18 @@
 ---
-layout: post
+layout: article
 title:  "使用Jekyll在GitHub上搭建个人博客"
-date:   2017-02-26
 author: 李宇琨
-categories: Jekyll
-tags:	jekyll
-cover:  "https://qnpeqw-dm2305.files.1drv.com/y3meKoP7pUDPSshru6OB2ZR5Zc3floxaUCVQg_Dt6DN2-2sAOO8rqFCp35_wNxpyYvvIs83sIyfWfeL6qdE7rFniM3uRgSIX0XIU2YP3R0HH_fQoXsqww7HlR4qwMhAWBkMzRsALGOVxVoe1SRi7q0L5lAbgVmCEb6ccHY4RiFDBNw?width=1800&height=1200&cropmode=none"
+key: 20170226
+lang: zh
+tags: Jekyll
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: "https://qnpeqw.dm.files.1drv.com/y4mMF6rx-u1Lmq_3pfITfG7CS4I5b6Ou4duQbuu6mXeyhGnJZm0j1taQQqD6oP7kLk4WIe8bIQqAzohW0PjbiROqcSs-NqsPmhB13jyWsrszz9PDWEklr9HLysNkY9Xp6L7Uaof3Zy3TiuvVwlqsqp4hREc5bnP_FipBBgkON_hvHQ_iRSuhd_mfC60RpTi6jEqyPlWHmWYN0giNEZMYqMsYg?width=1800&height=1200&cropmode=none"
 ---
-
-<!-- TOC -->
-
-- [博客解决方案](#博客解决方案)
-- [平台简介](#平台简介)
-    - [为何选择GitHub Pages](#为何选择github-pages)
-    - [什么是Jekyll](#什么是jekyll)
-- [环境搭建](#环境搭建)
-- [创建站点](#创建站点)
-    - [更换主题](#更换主题)
-- [撰写文章](#撰写文章)
-    - [Markdown](#markdown)
-    - [发布文章](#发布文章)
-- [网站部署](#网站部署)
-- [延伸阅读](#延伸阅读)
-
-<!-- /TOC -->
 
 # 博客解决方案
 

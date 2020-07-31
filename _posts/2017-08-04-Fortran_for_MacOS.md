@@ -1,27 +1,19 @@
 ---
-layout: post
+layout: article
 title:  "在MacOS下搭建Fortran开发环境"
 date:   2017-08-04
 author: 李宇琨
-categories: Fortran
-tags: Intel Xcode
-cover:  "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSMzQyLFdLcXXnuAAPWW7uwirx8cM_pVh09OCc4Z66Ug2TSm7QTUHtNBGJ3u89-AEVEF9anLU-f-LBWRihBjnI_Q2JI76fVEvpu2_kB72BfXeuBKPshY9gdJunSal0h6UdcIvsCh-qFHH1tb8SvFPyLBJMje_Q0xytHtlncfdP0DkjROFhRbtKnFtA?width=1687&height=809&cropmode=none"
+key: 20170804
+lang: zh
+tags: Fortran MAC
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSMzQyLFdLcXXnuAAPWW7uwirx8cM_pVh09OCc4Z66Ug2TSm7QTUHtNBGJ3u89-AEVEF9anLU-f-LBWRihBjnI_Q2JI76fVEvpu2_kB72BfXeuBKPshY9gdJunSal0h6UdcIvsCh-qFHH1tb8SvFPyLBJMje_Q0xytHtlncfdP0DkjROFhRbtKnFtA?width=1687&height=809&cropmode=none"
 ---
-
-<!-- TOC -->
-
-- [前言](#前言)
-- [部署平台](#部署平台)
-- [安装步骤](#安装步骤)
-    - [安装Xcode及Command Line Tools](#安装Xcode及Command Line Tools)
-    - [下载安装Intel Parallel Studio XE](#下载安装Intel Parallel Studio XE)
-- [配置](#配置)
-    - [准备工作](#准备工作)
-    - [在Xcode中运行Fortran](#在Xcode中运行Fortran)
-    - [Troubleshooting](#Troubleshooting)
-- [延伸阅读](#延伸阅读)
-
-<!-- TOC -->
 
 # 前言
 

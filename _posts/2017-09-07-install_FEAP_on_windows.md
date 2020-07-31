@@ -1,28 +1,18 @@
 ---
-layout: post
+layout: article
 title:  "在Win10下利用VS2017及Intel Fortran Compiler安装配置FEAP"
-date:   2017-09-07
 author: 李宇琨
-categories: Fortran
-tags: FEAP Intel
-cover:  "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSMzQyLFdLcXXnuAAPWW7uwirx8cM_pVh09OCc4Z66Ug2TSm7QTUHtNBGJ3u89-AEVEF9anLU-f-LBWRihBjnI_Q2JI76fVEvpu2_kB72BfXeuBKPshY9gdJunSal0h6UdcIvsCh-qFHH1tb8SvFPyLBJMje_Q0xytHtlncfdP0DkjROFhRbtKnFtA?width=1687&height=809&cropmode=none"
+key: 20170907
+lang: zh
+tags: FEAP Fortran Microsoft
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: "https://pnqw0q-dm2305.files.1drv.com/y4m0jG-CG3_RC_0fyGfFF9O0SzNsiL2XSMzQyLFdLcXXnuAAPWW7uwirx8cM_pVh09OCc4Z66Ug2TSm7QTUHtNBGJ3u89-AEVEF9anLU-f-LBWRihBjnI_Q2JI76fVEvpu2_kB72BfXeuBKPshY9gdJunSal0h6UdcIvsCh-qFHH1tb8SvFPyLBJMje_Q0xytHtlncfdP0DkjROFhRbtKnFtA?width=1687&height=809&cropmode=none"
 ---
-
-<!-- TOC -->
-
-- [前言](#前言)
-- [部署平台](#部署平台)
-- [准备工作](#准备工作)
-    - [安装Visual Studio 2015](#安装Visual Studio 2015)
-    - [安装Intel Parallel Studio XE](#安装Intel Parallel Studio XE)
-- [安装FEAP](#安装FEAP)
-    - [准备](#准备)
-    - [生成链接库](#生成链接库)
-    - [生成可执行文件](#生成可执行文件)
-- [添加PARDISO求解器](#添加PARDISO求解器)
-- [延伸阅读](#延伸阅读)
-
-<!-- TOC -->
 
 # 前言
 

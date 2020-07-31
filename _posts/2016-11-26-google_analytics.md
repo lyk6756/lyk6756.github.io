@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Google Analytics for Jekyll"
+key: 20161126
+lang: en
+tags: Jekyll
 ---
 
 # What is Google Analytics

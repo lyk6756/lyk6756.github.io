@@ -1,23 +1,39 @@
 ---
-layout: default
+layout: page
+titles:
+  # @start locale config
+  en      : &EN       Archive
+  en-GB   : *EN
+  en-US   : *EN
+  en-CA   : *EN
+  en-AU   : *EN
+  zh-Hans : &ZH_HANS  归档
+  zh      : *ZH_HANS
+  zh-CN   : *ZH_HANS
+  zh-SG   : *ZH_HANS
+  zh-Hant : &ZH_HANT  歸檔
+  zh-TW   : *ZH_HANT
+  zh-HK   : *ZH_HANT
+  ko      : &KO       아카이브
+  ko-KR   : *KO
+  fr      : &FR       Archives
+  fr-BE   : *FR
+  fr-CA   : *FR
+  fr-CH   : *FR
+  fr-FR   : *FR
+  fr-LU   : *FR
+  # @end locale config
 ---
-<div class="wrapper">
-<div class="page">
 
-  <header class="post-header">
-    <h1 class="post-title">Posts in "{{ page.title | capitalize }}"</h1>
-  </header>
-
-  {% include page_divider.html %}
-
-  <article class="post-content">
-    <ul class="posts-list">
-      {% for post in page.posts %}
-      <li><strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong><span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span></li>
-      {% endfor %}
-    </ul>
-  </article>
-
+<div class="layout--archive js-all">
+  {%- include tags.html -%}
+  <div class="js-result layout--archive__result d-none">
+    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+  </div>
 </div>
-</div>
-<br>
+
+<script>
+  {%- include scripts/archieve.js -%}
+</script>
+
+{{ content }}

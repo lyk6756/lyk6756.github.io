@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Use Pygments for Code Snippet Highlighting in Jekyll"
+key: 20161122
+lang: en
+tags: Jekyll
 ---
 
 If Pygments is set in your `_config.yml` file then your pages site will automatically build with Rouge as the default highlighter instead.

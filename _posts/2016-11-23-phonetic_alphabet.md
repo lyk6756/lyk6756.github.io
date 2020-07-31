@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: article
 title: "Phonetic Alphabet"
+key: 20161123
+lang: en
 ---
 
 A spelling alphabet, voice procedure alphabet, radio alphabet, or telephone alphabet is a set of words used to stand for the letters of an alphabet in oral communication. It is used to spell parts of a message containing letters and numbers to avoid confusion.

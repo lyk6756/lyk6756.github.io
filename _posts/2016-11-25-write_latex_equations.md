@@ -1,6 +1,11 @@
 ---
-layout: post
+layout: article
 title:  "Write LaTeX Equations in Jekyll Using MathJax & Kramdown"
+key: 20161125
+lang: en
+tags: Jekyll
+mathjax: true
+mathjax_autoNumber: true
 ---
 
 # What is MathJax

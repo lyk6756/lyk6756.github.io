@@ -1,211 +1,225 @@
-# External plugins
-# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
-plugins:
-  - jekyll-archives # Sorry, not GitHub pages friendly!
-  - jekyll-sitemap
-  - jekyll-paginate-v2
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+#
+# ,--------.      ,--.   ,--. ,--.
+# '--.  .--',---.  \  `.'  /,-'  '-.
+#    |  |  | .-. :  .'    \ '-.  .-'
+#    |  |  \   --. /  .'.  \  |  |
+#    `--'   `----''--'   '--' `--'
+
+
+
+
+## => Site Settings
+##############################
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : # does not include hostname
+title   : 李宇琨的博客
+description: > # this means to ignore newlines until "Language & timezone"
+  李宇琨的个人博客：分享科学，技术和他独特的生活。
+
+
+## => Language and Timezone
+##############################
+lang: zh-CN # the language of your site, default as "en"
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+
+
+## => Author and Social
+##############################
+author:
+  type      : # "person" (default), "organization"
+  name      : 李宇琨
+  url       :
+  avatar    : # path or url of avatar image (square)
+  bio       : Owner of lyk6756.github.io
+  email     : lyk6756@163.com
+  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+  linkedin  : yukun-li-643585129 # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : lyk6756 # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+
+
+## => GitHub Repository (if the site is hosted by GitHub)
+##############################
+repository: lyk6756/lyk6756.github.io
+repository_tree: master
+
+
+## => Paths
+##############################
+paths:
+  root    : # title link url, "/" (default)
+  home    : # home layout url, "/" (default)
+  archive : # "/archive.html" (default)
+  rss     : # "/feed.xml" (default)
+
+
+## => Post
+##############################
+## excerpt
+excerpt_separator: <!--more-->
+
+## license
+license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
+
+## TOC
+toc:
+  selectors: # "h1,h2,h3" (default)
+
+
+## => Markdown Enhancements
+##############################
+## Mathjax
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
+
+## Mermaid
+mermaid: true # false (default), true
+
+## Chart
+chart: true # false (default), true
+
+
+## => Paginate
+##############################
+paginate: 5
+paginate_path: /page:num # don't change this unless for special need
+
+
+## => Sources
+##############################
+sources: # bootcdn (default), unpkg
+
+
+## => Sharing
+##############################
+sharing:
+  provider: false # false (default), "addtoany", "addthis", "custom"
+
+  ## AddThis
+  addthis:
+    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+
+
+## => Comments
+##############################
+comments:
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+
+  ## Disqus
+  disqus:
+    shortname: # the Disqus shortname for the site
+
+  ## Gitalk
+  # please refer to https://github.com/gitalk/gitalk for more info.
+  gitalk:
+    clientID    : 4c1efc938d9c390b9cc9 # GitHub Application Client ID
+    clientSecret: b3c1ad38f94cb6d3e26114dee4427615bebd2e35 # GitHub Application Client Secret
+    repository  : lyk6756.github.io # GitHub repo
+    owner       : lyk6756 # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      lyk6756 # - your GitHub Id
+
+  ## Valine
+  # please refer to https://valine.js.org/en/ for more info.
+  valine:
+    app_id      : # LeanCloud App id
+    app_key     : # LeanCloud App key
+    placeholder : # Prompt information
+    visitor     : # false (default)
+    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+
+
+## => Pageview
+##############################
+pageview:
+  provider: "leancloud" # false (default), "leancloud", "custom"
+
+  ## Leancloud
+  leancloud:
+    app_id    : "D23NPOACMGt2Ft96r7cWQjRu-gzGzoHsz" # LeanCloud App id
+    app_key   : "B3espY1pKiufJILaQQvlYy2o" # LeanCloud App key
+    app_class : "hit_count" # LeanCloud App class
+
+
+## => Search
+##############################
+search:
+  provider: default # "default" (default), false, "google", "custom"
+
+  ## Google Custom Search Engine
+  google:
+    custom_search_engine_id: # Google Custom Search Engine ID
+
+
+## => Analytics
+##############################
+analytics:
+  provider: google # false (default), "google", "custom"
+
+  ## Google Analytics
+  google:
+    tracking_id : "UA-88059258-2" # Google Analytics id for the site
+    anonymize_ip: false # Anonymize IP tracking for Analytics
+
+
+## => Build
+##############################
+markdown    : kramdown
+highlighter : rouge
+permalink   : date
 
 exclude:
-  - "/vendor/"
+  - CHANGELOG.md
+  - HOW_TO_RELEASE.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README-*.md
+  - README.md
+  - gulpfile.js
+  - jekyll-text-theme.gemspec
+  - package-lock.json
+  - package.json
+  - /docs
+  - /node_modules
+  - /screenshots
+  - /test
+  - /vendor
 
-# Site settings
-title: 李宇琨
-subtitle: "分享：创意，技术，生活。"
-email: lyk6756@163.com
-name: 李宇琨
-description: > # this means to ignore newlines until "baseurl:"
-  李宇琨的个人博客：分享科学，技术和他独特的生活。
-# Base URL of site (i.e. /blog). It should always start with a slash,
-# and never end with a slash. Set it to a blank value if hosting at the
-# root of your server.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
 
-# Build settings
-markdown: kramdown
-inter_post_navigation: false
-highlightjs_theme: "monokai-sublime"
 
-# Pagination Settings
-# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-pagination:
-  enabled: true
-  per_page: 10
-  permalink: "/page/:num/"
-  sort_reverse: true
-
-# Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
-
-# Disqus comments
-disqus_shortname: lyk6756cn
-
-# Google analytics
-ga_tracking_id: "UA-88059258-2"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  # - cat: dummy
-  #   desc: "Just some placeholder posts, lorem ipsum and the rest."
-
-# Social icons and sharing options
-#
-# Social settings are used in two places:
-# * In the footer, as links to your personal profiles
-# * After each blog post for sharing widgets
-#
-# Example:
-#
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
-#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-#     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts
-social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
-
-  - name: Facebook
-    icon: facebook
-    username: thebencentra
-    url: ""
-    desc: Friend me on Facebook
-    share: true
-
-  - name: GitHub
-    icon: github
-    username: lyk6756
-    url: https://github.com/lyk6756
-    desc: Fork me on GitHub
-    share: false
-
-  - name: LinkedIn
-    icon: linkedin
-    username: Yukun Li
-    url: https://www.linkedin.com/in/yukun-li-643585129/
-    desc: Connect with me on LinkedIn
-    share: true
-
-  - name: ResearchGate
-    icon: university
-    username: Yukun Li
-    url: https://www.researchgate.net/profile/Yukun_Li6
-    desc: Follow me on ResearchGate
-    share: false
-
-  - name: Google+
-    icon: google-plus
-    username: ""
-    url: ""
-    desc: Add me to your Circles
-    share: true
-
-  - name: YouTube
-    icon: youtube
-    username: ""
-    url: ""
-    desc: Subscribe on YouTube
-    share: false
-
-  - name: Instagram
-    icon: instagram
-    username: ""
-    url: ""
-    desc: Follow me on Instagram
-    share: false
-
-  - name: Pinterest
-    icon: pinterest
-    username: ""
-    url: ""
-    desc: Follow me on Pinterest
-    share: true
-
-  - name: SoundCloud
-    icon: soundcloud
-    username: ""
-    url: ""
-    desc: Follow me on SoundCloud
-    share: false
-
-  - name: Tumblr
-    icon: tumblr
-    username: ""
-    url: ""
-    desc: Follow me on Tumblr
-    share: false
-
-  - name: Steam
-    icon: steam
-    username: ""
-    url: ""
-    desc: Friend me on Steam
-    share: false
-
-  - name: Dribbble
-    icon: dribbble
-    username: ""
-    url: ""
-    desc: Follow me on Dribble
-    share: false
-
-  - name: Vimeo
-    icon: vimeo-square
-    username: ""
-    url: ""
-    desc: Follow me on Vimeo
-    share: false
-
-  - name: Vine
-    icon: vine
-    username: ""
-    url: ""
-    desc: Follow me on Vine
-    share: false
-
-  - name: Reddit
-    icon: reddit
-    username: ""
-    url: ""
-    desc: Share to Reddit
-    share: true
-
-  - name: "Hacker News"
-    icon: hacker-news
-    username: ""
-    url: ""
-    desc: Share to Hacker News
-    share: false
-
-# Social sharing protocols
-# These are for automatically generating sharing metadata for FB and Twitter
-# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
-protocols:
-    fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
-    fb_image_type: "image/png"
-
-    twitter_image: "/assets/logo.png"
-
-    os_repo: "https://github.com/bencentra/centrarium.com"
-    os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+## => Plugins
+##############################
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji

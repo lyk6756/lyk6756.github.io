@@ -1,11 +1,17 @@
 ---
-layout: post
+layout: article
 title:  "在线文档部署方案：Sphinx + Read the Docs"
-date:   2018-01-30
 author: 李宇琨
-categories: 
-tags: 
-cover:  "https://i.ytimg.com/vi/hLFYvtL_nZM/maxresdefault.jpg"
+key: 20180130
+lang: zh
+tags: Notes
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: "https://i.ytimg.com/vi/hLFYvtL_nZM/maxresdefault.jpg"
 ---
 
 

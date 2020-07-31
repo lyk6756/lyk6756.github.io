@@ -1,11 +1,17 @@
 ---
-layout: post
+layout: article
 title:  "金属材料及其焊接接头的断裂试验标准"
-date:   2018-04-20
 author: 李宇琨
-categories: Fracture
-tags: Testing Weld
-cover:  "https://www.boatdesign.net/attachments/92909/"
+key: 20180420
+lang: zh
+tags: 
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: "https://www.boatdesign.net/attachments/92909/"
 ---
 
 
@@ -19,6 +25,7 @@ cover:  "https://www.boatdesign.net/attachments/92909/"
 * [ISO/TC 164/SC 4](https://www.iso.org/committee/53560.html) Fatigue, fracture and toughness testing
 * [ISO/TC 44/SC 5](https://www.iso.org/committee/48620.html) Testing and inspection of welds
 
+<!--more-->
 
 # 相关标准
 

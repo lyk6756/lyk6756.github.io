@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title: "Install and Configure TigerVNC on CentOS 7"
+key: 20161208
+lang: en
+tags: Linux
 ---
 
 # What is VNC

@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Table Syntax In Markdown With Kramdown"
+key: 20161124
+lang: en
+tags: Jekyll
 ---
 
 

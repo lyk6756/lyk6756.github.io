@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title: "On Fracture Mechanics in Abaqus 2016 Documentation"
+key: 20170301
+lang: en
+tags: ABAQUS
 ---
 
 # Abaqus/CAE User's Guide

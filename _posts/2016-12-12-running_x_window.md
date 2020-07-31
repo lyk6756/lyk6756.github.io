@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title: "Running X Window Graphical Application Via SSH"
+key: 20161212
+lang: en
+tags: Linux
 ---
 
 SSH gives a solution of remote command-line login and remote command execution on Unix-like operating system. If you want to run server's software with GUI on your client however, unlike RFB (VNC) protocol, SSH itself is not applicable to windowing systems and applications at the framebuffer level. But we can enable SSH's X11 forwarding function and launch GUI using a X Window System display server if needed.

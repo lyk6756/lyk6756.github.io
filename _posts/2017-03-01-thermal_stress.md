@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: article
 title: "On Thermal Stress and Heat Transfer in Abaqus 2016 Documentation"
+key: 2017030103
+lang: en
+tags: ABAQUS
 ---
 
 # Abaqus Analysis User's Guide
