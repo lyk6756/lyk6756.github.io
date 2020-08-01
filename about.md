@@ -33,7 +33,9 @@ article_header:
     src: "/assets/images/header_image.jpg"
 ---
 
-# 关于我
+# 关于
+
+## 关于我
 
 <div  align="center">
 <img src="https://nmqziq.dm.files.1drv.com/y4mHU8hHM3HBD8HCpysPAiWxcQTbGx6w0AygRZKNGWuCrAxYuLf7R_cb9IrLY5XAPTEZoJ8oYCvGE_PXJbMNbw9EaP0HirjPHsF5Z4ImWBgzsrccvliOsZsKwcTUstisEcxTmSWM1t2NtiIf2wzWpjsGnPNPQ6gYqvxxjMfsxlZzaaKBbVafcBlgf6nmunDEo7IcybU1ImGs0ZPPtkG8GiPJw?width=1440&height=1080&cropmode=none" width = "400" height = "300">
@@ -49,7 +51,7 @@ article_header:
 
 May the force be with you :pray:
 
-# 关于此主题
+## 关于此主题
 
 本博客使用主题[TeXt][TeXt]。
 
