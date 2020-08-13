@@ -47,16 +47,16 @@ sudo yum install gcc-gfortran
 sudo yum install openmotif
 ```
 
-## 安装破解证书服务器SolidSQUAD Universal License Server
+## 安装证书服务器
 
 破解文件的目录如下：
 
 ```text
 Crack
-├── SSQ_UniversalLicenseServer_Core_20180127074300.zip
+├── SSQ_UniversalLicenseServer_Core_<release-date>.zip
 │   └── SolidSQUAD_License_Servers
 │       └── ...
-├── SSQ_UniversalLicenseServer_Module_DSSimulia_20180127185300.zip
+├── SSQ_UniversalLicenseServer_Module_DSSimulia_<release-date>.zip
 │   └── Vendors
 │       └── DSSimulia
 │           └── ...
@@ -230,51 +230,6 @@ abaquslm_license_file="27800@localhost"
 /opt/DassaultSystemes/SIMULIA/Commands/abaqus licensing ru
 ```
 
-## 快捷访问
-
-### 运行Abaqus/CAE
-
-当系统开机或重启后，首先需要开启证书服务器：
-
-```shell
-sudo ksh /opt/DassaultSystemes/SolidSQUAD_License_Servers/install_or_update.sh
-```
-
-以管理员身份使用以下命令来启动Abaqus/CAE：
-
-```shell
-/opt/DassaultSystemes/SIMULIA/Commands/abaqus cae
-```
-
-或
-
-```shell
-/opt/DassaultSystemes/SIMULIA/Commands/abq2016 cae
-```
-
-如果出现图形渲染问题，可以在启动指令后添加`-mesa`来禁止硬件图形加速渲染，参考：[Hardware acceleration (all platforms)](https://abaqus-docs.mit.edu/2017/English/SIMACAEILGRefMap/simailg-c-viewcusthardware.htm)
-
-如果出现CAE窗口透明的情况，可以在启动指令前添加`XLIB_SKIP_ARGB_VISUALS=1`。
-
-打开CAE后，需要更改工作目录到/home下的任意路径。放置在/home下的文件才能够在普通权限下进行读写，如果没有更改工作路径，ABAQUS会报错sim文件不存在等问题，无法进行计算。
-
-### 创建快捷方式
-
-可以通过一下几种方式来使`abaqus`指令得到全局访问：
-
-* 在`/usr/bin/`中创建同步链接：
-
-```shell
-sudo ln /opt/DassaultSystemes/SIMULIA/Commands/abaqus /usr/bin/abaqus
-```
-
-* 修改`~/.bashrc`，在其中添加如下指令：
-
-```shell
-alias abqlic='ksh /opt/DassaultSystemes/SolidSQUAD_License_Servers/install_or_update.sh'
-alias abaqus='/opt/DassaultSystemes/SIMULIA/Commands/abaqus'
-```
-
 ## 链接Intel Fortran编译器
 
 Intel Parallel Studio XE 2019支持的操作系统有：
@@ -328,8 +283,53 @@ abaqus verify -user_std
 参考：
 
 * [Linking Intel fortran compiler to ABAQUS and using UMAT - Saiwal's HomePage](http://home.iitk.ac.in/~saiwal/engineering/intel-abaqus/)
-* [Linking Abaqus/Fortran for running subroutine in UBUNTU (linux)-Abaqus GUI Graphical issue(Transparent-/transluscent) | iMechanica](https://imechanica.org/node/13804)
+* [Linking Abaqus/Fortran for running subroutine in UBUNTU (linux)-Abaqus GUI Graphical issue(Transparent-/transluscent) - iMechanica](https://imechanica.org/node/13804)
 * [how to link Fortran with Abaqus CAE 6.14 in Redhat linux terminal? - Stack Overflow](https://stackoverflow.com/questions/44133632/how-to-link-fortran-with-abaqus-cae-6-14-in-redhat-linux-terminal)
+
+## 快捷访问
+
+### 运行Abaqus/CAE
+
+当系统开机或重启后，首先需要开启证书服务器：
+
+```shell
+sudo ksh /opt/DassaultSystemes/SolidSQUAD_License_Servers/install_or_update.sh
+```
+
+以管理员身份使用以下命令来启动Abaqus/CAE：
+
+```shell
+/opt/DassaultSystemes/SIMULIA/Commands/abaqus cae
+```
+
+或
+
+```shell
+/opt/DassaultSystemes/SIMULIA/Commands/abq2016 cae
+```
+
+如果出现图形渲染问题，可以在启动指令后添加`-mesa`来禁止硬件图形加速渲染，参考：[Hardware acceleration (all platforms)](https://abaqus-docs.mit.edu/2017/English/SIMACAEILGRefMap/simailg-c-viewcusthardware.htm)
+
+如果出现CAE窗口透明的情况，可以在启动指令前添加`XLIB_SKIP_ARGB_VISUALS=1`。
+
+打开CAE后，需要更改工作目录到/home下的任意路径。放置在/home下的文件才能够在普通权限下进行读写，如果没有更改工作路径，ABAQUS会报错sim文件不存在等问题，无法进行计算。
+
+### 创建快捷方式
+
+可以通过一下几种方式来使`abaqus`指令得到全局访问：
+
+* 在`/usr/bin/`中创建同步链接：
+
+```shell
+sudo ln /opt/DassaultSystemes/SIMULIA/Commands/abaqus /usr/bin/abaqus
+```
+
+* 修改`~/.bashrc`，在其中添加如下指令：
+
+```shell
+alias abqlic='ksh /opt/DassaultSystemes/SolidSQUAD_License_Servers/install_or_update.sh'
+alias abaqus='/opt/DassaultSystemes/SIMULIA/Commands/abaqus'
+```
 
 ## 在命令行窗口使用Abaqus
 
