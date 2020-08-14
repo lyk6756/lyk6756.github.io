@@ -2,7 +2,7 @@
 layout: article
 title:  "在CentOS上安装ABAQUS 2019并搭建子程序开发环境"
 author: 李宇琨
-key: 20200805
+key: 20200813
 lang: zh
 tags: ABAQUS Fortran Linux
 article_header:
