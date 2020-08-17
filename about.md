@@ -33,8 +33,6 @@ article_header:
     src: "/assets/images/header_image.jpg"
 ---
 
-# 关于
-
 ## 关于我
 
 <div  align="center">

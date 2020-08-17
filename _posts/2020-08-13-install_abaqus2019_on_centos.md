@@ -16,6 +16,7 @@ article_header:
 
 ## 系列文章
 
+* [在命令行窗口中运行ABAQUS](https://lyk6756.github.io/2020/08/01/ABAQUS_obj.html)
 * [在Win10下搭建Abaqus子程序开发环境](https://lyk6756.github.io/2017/12/12/Link_Abaqus_with_Fortran.html)
 * [Install Abaqus2016 on Linux (Ubuntu 16.04 64bit)](https://lyk6756.github.io/2016/11/18/install_abaqus2016_on_linux.html)
 
@@ -354,40 +355,6 @@ abaqus verify -user_std
 * [Linking Intel fortran compiler to ABAQUS and using UMAT - Saiwal's HomePage](http://home.iitk.ac.in/~saiwal/engineering/intel-abaqus/)
 * [Linking Abaqus/Fortran for running subroutine in UBUNTU (linux)-Abaqus GUI Graphical issue(Transparent-/transluscent) - iMechanica](https://imechanica.org/node/13804)
 * [how to link Fortran with Abaqus CAE 6.14 in Redhat linux terminal? - Stack Overflow](https://stackoverflow.com/questions/44133632/how-to-link-fortran-with-abaqus-cae-6-14-in-redhat-linux-terminal)
-
-## 在命令行窗口使用Abaqus
-
-* 提交作业：
-
-```shell
-abaqus job=<jobname>
-```
-
-* 提交带子程序的作业：
-
-```shell
-abaqus job=<jobname> user=<subroutine filename> cpus=N
-```
-
-job后面输入inp文件名，一般省略inp文件后缀；user后面是用户子程序，必须使用`.f`后缀；cpus=N，N必须是整数，表示分析使用的核数。
-
-登陆后输入`cat /proc/cpuinfo`即可查询服务器的核数，注意内核的编号是从零开始，因此第N个核的编号是N+1。另外，输入`top`命令可以查询机器运行状态，Tasks中running前面的那个数字就是机器的已用内核数，总核数减去已用内核数既是剩余内核数。
-
-要监视分析作业的进度，您可以查看`.sta`文件。但这不会随着进度的进行而更新状态文件。要动态显示进度，可以使用`tail`命令：
-
-```shell
-tail -f <jobname>.sta
-```
-
-如果需要终止正在运行的作业，则可以使用`top`命令结束相关进程或使用`killall <process name>`结束该进程。进程名称可以从`top`命令中找到。
-
-参考：
-
-* [Execution Procedures](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-m-ExecutionProcedures-sb.htm)
-  * [Abaqus/Standard and Abaqus/Explicit execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-analysisproc.htm)
-  * [Abaqus/CAE execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-caeproc.htm)
-  * [Abaqus/Viewer execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-viewerproc.htm)
-* [Accessing an output database on a remote computer](https://abaqus-docs.mit.edu/2017/English/SIMACAECAERefMap/simacae-m-DbsNetworkodb-sb.htm)
 
 ---
 
