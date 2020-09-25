@@ -14,7 +14,7 @@ tags: ABAQUS
 | $$v$$ | velocity | $$LT^{-1}$$ | $$\text{m/s}$$ | $$\text{mm/s}$$ | $$\text{in/s}$$ | $$\text{ft/s}$$ |
 | $$a$$ | acceleration | $$LT^{-2}$$ | $$\text{m/s}^2$$ | $$\text{mm/s}^2$$ | $$\text{in/s}^2$$ | $$\text{ft/s}^2$$ |
 | $$g$$ | gravity | $$LT^{-2}$$ | $$9.8\text{m/s}^2$$ | $$9.8\times10^3\text{mm/s}^2$$ | $$386.2\text{in/s}^2$$ | $$32.19\text{ft/s}^2$$ |
-| $$\sigma/p$$ | stress/pressure | $$ML^{-1}T^{-2}$$ | Pascal($$\text{Pa}$$, $$\text{N/m^2}$$) | MegaPascal($$\text{MPa}$$, $$\text{N/mm^2}$$) | $$\text{psi}, $$\text{lbf/in}^2$$ | $$\text{lbf/ft}^2$$ |
+| $$\sigma/p$$ | stress/pressure | $$ML^{-1}T^{-2}$$ | Pascal($$\text{Pa}$$, $$\text{N/m^2}$$) | MegaPascal($$\text{MPa}$$, $$\text{N/mm^2}$$) | $$\text{psi}$$, $$\text{lbf/in}^2$$ | $$\text{lbf/ft}^2$$ |
 | $$\rho$$ | density | $$ML^{-3}$$ | $$\text{kg/m}^3$$ | $$\text{t/mm}^3$$ | $$\text{snails/in}^3$$ | $$\text{slugs/ft}^3$$ |
 | $$E/W/M$$ | energy/work/moment | $$ML^2T^{-2}$$ | Joule($$\text{J}$$, $$\text{N}\cdot\text{m}$$) | milliJoule($$\text{mJ}(10^{-3}\text{J})$$, $$\text{N}\cdot\text{mm}$$) | $$\text{lbf}\cdot\text{in}$$ | $$\text{lbf}\cdot\text{ft}$$ |
 
