@@ -101,6 +101,8 @@ academic=TEACHING
 
 这样就完成了关联配置工作。
 
+或参考：[Abaqus2019关联VS2017和IVF2019](http://www.kudincha.cn/156.html)
+
 另一种关联方法是对快捷方式的目标进行设置：
 
 * 对于Abaqus CAE快捷方式，`右键`->`属性`->`快捷方式`选项卡中的`目标`一栏中，将
