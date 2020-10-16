@@ -24,7 +24,7 @@ article_header:
 
 * CentOS Linux release 7.8.2003
 
-* ABAQUS 2017
+* ABAQUS 2019
 
 * Intel Parallel Studio XE 2019
 
