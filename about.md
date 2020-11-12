@@ -43,11 +43,13 @@ article_header:
 
 欢迎你，我的朋友！:raised_hands:
 
-我是李宇琨，来自于中原的一名90后。目前求学东北，攻读博士学位。
+我是李宇琨，来自于中原的一名90后。目前求学东北，攻读博士学位。:artificial_satellite:
 
 愿你从这里获得灵感 :bulb:
 
 May the force be with you :pray:
+
+:airplane: :rocket: :flying_saucer:
 
 ## 关于此主题
 
