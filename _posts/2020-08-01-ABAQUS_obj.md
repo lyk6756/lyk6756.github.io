@@ -123,6 +123,10 @@ execfile('myscript.py')
 
 详见帮助文档[^3]
 
+在Python脚本中，对于`Job`对象，可以采用方法`submit(...)`来提交一个分析作业；采用方法`kill()`来停止一个分析作业；采用方法`waitForCompletion()`来中断脚本的执行，直到分析结束。
+
+详见帮助文档[^4]
+
 参考：
 
 * [Execution Procedures](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-m-ExecutionProcedures-sb.htm), Section 3.2 in Abaqus Analysis User's Guide
@@ -130,6 +134,10 @@ execfile('myscript.py')
   * [Abaqus/Viewer execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-viewerproc.htm), Section 3.2.8
   * [Python execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-pythonproc.htm), Section 3.2.10
 * [How does the Abaqus Scripting Interface interact with Abaqus/CAE?](https://abaqus-docs.mit.edu/2017/English/SIMACAECMDRefMap/simacmd-c-aclintintrointerface.htm), Section 2.2 in Abaqus Scripting User's Guide
+* [Job commands](https://abaqus-docs.mit.edu/2017/English/SIMACAEKERRefMap/simaker-m-JobPyc-sb.htm) in Abaqus Scripting Reference Guide
+  * [Job object](https://abaqus-docs.mit.edu/2017/English/SIMACAEKERRefMap/simaker-c-jobpyc.htm)
+  * [JobFromInputFile object](https://abaqus-docs.mit.edu/2017/English/SIMACAEKERRefMap/simaker-c-jobfrominputfilepyc.htm)
+  * [ModelJob object](https://abaqus-docs.mit.edu/2017/English/SIMACAEKERRefMap/simaker-c-modeljobpyc.htm)
 
 ---
 
@@ -145,8 +153,10 @@ execfile('myscript.py')
 * [Abaqus Scripting User's Guide - Abaqus 2016 Documentation](http://130.149.89.49:2080/v2016/books/cmd/default.htm)
   * ["How does the Abaqus Scripting Interface interact with Abaqus/CAE?" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAECMDRefMap/simacmd-c-aclintintrointerface.htm), Section 2.2
 
-[^1]: ["Abaqus/Standard and Abaqus/Explicit execution" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-analysisproc.htm)", Section 3.2.2
+[^1]: ["Abaqus/Standard and Abaqus/Explicit execution" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-analysisproc.htm)", Section 3.2.2 in Abaqus Analysis User's Guide
 
-[^2]: ["Making user-defined executables and subroutines" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-makeproc.htm), Section 3.2.18
+[^2]: ["Making user-defined executables and subroutines" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-makeproc.htm), Section 3.2.18 in Abaqus Analysis User's Guide
 
-[^3]: ["How does the Abaqus Scripting Interface interact with Abaqus/CAE?" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAECMDRefMap/simacmd-c-aclintintrointerface.htm), Section 2.2
+[^3]: ["How does the Abaqus Scripting Interface interact with Abaqus/CAE?" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAECMDRefMap/simacmd-c-aclintintrointerface.htm), Section 2.2 in Abaqus Scripting User's Guide
+
+[^4]: ["Job object" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEKERRefMap/simaker-c-jobpyc.htm) in Abaqus Scripting Reference Guide
