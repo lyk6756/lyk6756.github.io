@@ -42,10 +42,10 @@ tail -f <jobname>.sta
 
 参考：
 
-* [Execution Procedures](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-m-ExecutionProcedures-sb.htm)
-  * [Abaqus/Standard and Abaqus/Explicit execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-analysisproc.htm)
-  * [Abaqus/CAE execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-caeproc.htm)
-  * [Abaqus/Viewer execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-viewerproc.htm)
+* [Execution Procedures](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-m-ExecutionProcedures-sb.htm), Section 3.2 in Abaqus Analysis User's Guide
+  * [Abaqus/Standard and Abaqus/Explicit execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-analysisproc.htm), Section 3.2.2
+  * [Abaqus/CAE execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-caeproc.htm), Section 3.2.7
+  * [Abaqus/Viewer execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-viewerproc.htm), Section 3.2.8
 * [Accessing an output database on a remote computer](https://abaqus-docs.mit.edu/2017/English/SIMACAECAERefMap/simacae-m-DbsNetworkodb-sb.htm)
 
 详见帮助文档[^1]
@@ -83,15 +83,70 @@ usub_lib_dir=os.getcwd()
 abaqus job=input.inp cpus=n
 ```
 
+## 运行Python脚本
+
+脚本包含以纯ASCII格式存储的一系列Python语句。如果需要打开Abaqus/CAE并在其中运行脚本，可以直接在命令行输入：
+
+```shell
+abaqus cae script=myscript.py
+```
+
+其中的`myscript.py`表示脚本的文件名。对于在Abaqus/Viewer中运行的脚本，同样有：
+
+```shell
+abaqus viewer script=myscript.py
+```
+
+可以通过在命令行中输入`--`并以一个或多个空格分隔的参数来将参数传递到脚本中。这些参数可以在脚本中被访问，但将被Abaqus/CAE在执行时忽略。
+
+如果要在没有图形用户界面（GUI）的情况下运行Abaqus/CAE脚本，可以直接在命令行输入：
+
+```shell
+abaqus cae noGUI=myscript.py
+```
+
+Abaqus/CAE将在文件中运行命令，并在命令完成后退出。如果没有给出文件扩展名，则默认扩展名是.py。该选项对于自动化分析前或分析后的处理任务很有用，而无需增加运行显示器的费用。由于未提供任何界面，因此脚本不能包含任何用户交互。如果使用`noGUI`选项，则Abaqus/CAE将忽略提供的任何其他命令行选项。
+
+同样的，对于在没有图形用户界面（GUI）的Abaqus/Viewer中运行的脚本有：
+
+```shell
+abaqus viewer noGUI=myscript.py
+```
+
+如果已经打开了Abaqus/CAE的图形界面，除了可以通过菜单栏中选择`File > Run Script`来运行脚本，还可以在界面下方的Python命令行界面（CLI）采用Python内置函数`execfile`运行脚本：
+
+```python
+execfile('myscript.py')
+```
+
+需要注意的是，Abaqus仅支持Python 2版本，在最近的Python 3中，`execfile(fn)`函数已被移除，取而代之的是`exec(open(fn).read())`。
+
+详见帮助文档[^3]
+
+参考：
+
+* [Execution Procedures](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-m-ExecutionProcedures-sb.htm), Section 3.2 in Abaqus Analysis User's Guide
+  * [Abaqus/CAE execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-caeproc.htm), Section 3.2.7
+  * [Abaqus/Viewer execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-viewerproc.htm), Section 3.2.8
+  * [Python execution](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-pythonproc.htm), Section 3.2.10
+* [How does the Abaqus Scripting Interface interact with Abaqus/CAE?](https://abaqus-docs.mit.edu/2017/English/SIMACAECMDRefMap/simacmd-c-aclintintrointerface.htm), Section 2.2 in Abaqus Scripting User's Guide
+
 ---
 
 ## 延伸阅读
 
 * [Running an Abaqus analysis with user subroutines without FORTRAN compilers](https://www.linkedin.com/pulse/running-abaqus-analysis-user-subroutines-without-fortran-tripathy)
 * [Abaqus子程序使用方法 - Shen](http://feishen.me/2018/02/06/Abaqus-Fortran/)
+* [基于python或者.bat实现abaqus任务批处理 - 仿真秀](https://www.fangzhenxiu.com/post/23483)
+* [批量执行ABAQUS的inp文件——整理 - CSDN博客](https://blog.csdn.net/qq_39957456/article/details/107191096)
+
 * [Abaqus Analysis User's Guide - Abaqus 2016 Documentation](http://130.149.89.49:2080/v2016/books/usb/default.htm)
   * ["Execution Procedures" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-m-ExecutionProcedures-sb.htm), Section 3.2
+* [Abaqus Scripting User's Guide - Abaqus 2016 Documentation](http://130.149.89.49:2080/v2016/books/cmd/default.htm)
+  * ["How does the Abaqus Scripting Interface interact with Abaqus/CAE?" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAECMDRefMap/simacmd-c-aclintintrointerface.htm), Section 2.2
 
 [^1]: ["Abaqus/Standard and Abaqus/Explicit execution" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-analysisproc.htm)", Section 3.2.2
 
 [^2]: ["Making user-defined executables and subroutines" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-makeproc.htm), Section 3.2.18
+
+[^3]: ["How does the Abaqus Scripting Interface interact with Abaqus/CAE?" - MIT](https://abaqus-docs.mit.edu/2017/English/SIMACAECMDRefMap/simacmd-c-aclintintrointerface.htm), Section 2.2
