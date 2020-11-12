@@ -49,7 +49,7 @@ article_header:
 
 May the force be with you :pray:
 
-:racing_car: :airplane: :rocket:
+:helicopter: :airplane: :rocket:
 
 ## 关于此主题
 
