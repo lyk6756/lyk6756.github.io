@@ -50,6 +50,16 @@ tail -f <jobname>.sta
 
 详见帮助文档[^1]
 
+### Troubleshooting - could not write file: check the disk space on your system
+
+在计算较大的作业时，可能会出现临时文件过大而超过临时文件的默认存储空间。可以在提交作业时通过`scratch`选项来指定用于存储临时文件的目录名称。
+
+在Linux平台，该选项的默认值为`$TMPDIR`环境变量的值，如果未定义`$TMPDIR`，则为`/tmp`。
+
+在Windows平台，该选项的默认值为`%TMP%`环境变量的值，如果未定义`%TMP%`，则为`\TEMP`。
+
+在分析过程中，将在该目录下创建一个子目录来保存分析暂存文件。 可以在环境文件中设置此参数的默认值（请参阅[环境文件设置](https://abaqus-docs.mit.edu/2017/English/SIMACAEEXCRefMap/simaexc-c-envfile.htm)）。
+
 ## 在未关联编译器的环境中
 
 如果子程序已开发完成，需要进行分发使用。为了使子程序能够在没有关联编译环境的计算机上执行，或者不希望用户关注到源代码，可以使用ABAQUS自带的MAKE工具将`.for`源文件封装成目标文件和动态库文件。
