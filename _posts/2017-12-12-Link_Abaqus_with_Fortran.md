@@ -145,7 +145,7 @@ Enjoy:)
 
 * Abaqus 2018/2019 + Visual Studio 2015 + Intel Parallel Studio XE 2019 [参考](https://blog.csdn.net/ghfuidy/article/details/102863933)
 
-* Abaqus 2020 + Visual Studio 2019 + Intel Parallel Studio XE 2020 [参考](https://zhuanlan.zhihu.com/p/112449922)
+* Abaqus 2020/2021 + Visual Studio 2019 + Intel Parallel Studio XE 2020 [参考1](https://zhuanlan.zhihu.com/p/112449922), [参考2](https://mp.weixin.qq.com/s/CVUcyytNvquq-GWBV6DgbQ)
 
 ---
 
