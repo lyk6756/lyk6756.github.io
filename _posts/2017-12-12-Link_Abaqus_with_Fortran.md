@@ -143,7 +143,7 @@ Enjoy:)
 
 * Abaqus 6.14 + Visual Studio 2013 + Intel Visual Fortran XE 2013 [参考](https://blog.csdn.net/qintianhaohao/article/details/79355893)
 
-* Abaqus 2018/2019 + Visual Studio 2015 + Intel Parallel Studio XE 2019 [参考](https://blog.csdn.net/ghfuidy/article/details/102863933)
+* Abaqus 2018/2019 + Visual Studio 2015/2017 + Intel Parallel Studio XE 2019 [参考1](https://blog.csdn.net/ghfuidy/article/details/102863933), [参考2](https://blog.csdn.net/weixin_31516001/article/details/112266333)
 
 * Abaqus 2020/2021 + Visual Studio 2019 + Intel Parallel Studio XE 2020 [参考1](https://zhuanlan.zhihu.com/p/112449922), [参考2](https://mp.weixin.qq.com/s/CVUcyytNvquq-GWBV6DgbQ)
 
