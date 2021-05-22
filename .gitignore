@@ -1,12 +1,27 @@
+*~
+~*
+*.diff
+*.patch
+*.bak
 .DS_Store
+*.swp
+*.swo
+*.log
+*.log.*
 
-# Compiled site
-_site
+/.vscode/
+
+node_modules/
+.sass-cache/
+
+/.bundle/
+/vendor/bundle
+*.gem
+
+yarn.lock
+package-lock.json
+Gemfile.lock
+
+_site/
+.jekyll-metadata
 .jekyll-cache/
-
-# Sass garbage
-.sass-cache
-
-# Bundler
-.bundle/
-vendor/

@@ -1,16 +1,11 @@
-# EditorConfig is awesome: http://EditorConfig.org
-
+# http://editorconfig.org
 root = true
 
 [*]
-end_of_line = lf
-insert_final_newline = true
-
-[*.{html,js,scss}]
 charset = utf-8
-indent_style = tab
+end_of_line = lf
 indent_size = 2
-
-[*.{md,markdown,yml}]
-indent_style = spaces
-indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 80
+trim_trailing_whitespace = true
