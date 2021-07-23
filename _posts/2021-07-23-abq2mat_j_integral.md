@@ -16,7 +16,7 @@ article_header:
 
 ## 简介
 
-该项目将Abaqus输入和结果文件读取到Matlab中，然后针对特定的二维算例计算J积分。两个算例分别计算了均匀板（HOMI）和功能梯度材料板（FGMII）的混合裂纹。算例的详细信息可参考如下文献，亦可在[`papers`](/papers/)文件夹中找到。
+该项目将Abaqus输入和结果文件读取到Matlab中，然后针对特定的二维算例计算J积分。两个算例分别计算了均匀板（HOMI）和功能梯度材料板（FGMII）的混合裂纹。算例的详细信息可参考如下文献，亦可在[`papers`](https://github.com/lyk6756/abq2mat_j-integral/tree/main/papers)文件夹中找到。
 
 ## 项目代码
 
@@ -61,7 +61,7 @@ All,
 
 将文件夹`1.model`中生成的输入文件（`.inp`）和结果文件（`.fil`）拷贝至文件夹`2.abq2mat`中。在文件夹`2.abq2mat`中，运行Matlab脚本`main_getdata.m`来获取模型信息。得到的模型信息将储存为Matlab数据文件（`.mat`）。
 
-**注意**脚本`main_getdata.m`中采用了小工具[abaqusMesh2Matlab][abaqusMesh2Matlab]来读取Abaqus输入文件（`.inp`），采用了小工具[Abaqus2Matlab V2.0][Abaqus2Matlab][^1]来读取Abaqus结果文件（`.fil`）。运行`main_getdata.m`前应首先安装这两个小工具。相关安装文件可在[`gadgets`](/gadgets/)文件夹中找到。
+**注意**脚本`main_getdata.m`中采用了小工具[abaqusMesh2Matlab][abaqusMesh2Matlab]来读取Abaqus输入文件（`.inp`），采用了小工具[Abaqus2Matlab V2.0][Abaqus2Matlab][^1]来读取Abaqus结果文件（`.fil`）。运行`main_getdata.m`前应首先安装这两个小工具。相关安装文件可在[`gadgets`](https://github.com/lyk6756/abq2mat_j-integral/tree/main/gadgets/)文件夹中找到。
 
 ### 步骤三：在Matlab中计算*J*积分
 
@@ -73,7 +73,7 @@ All,
 
 ## Introduction
 
-This repository reads Abaqus input and result files to Matlab, then calculate the J-integral for specific 2D problems. Two examples calculate the mixed cracks of a homogeneous plate (HOMI) and functionally graded material plate (FGMII), respectively. The detailed information of the examples can be found in the following papers, which can also be found in the folder [`papers`](/papers/).
+This repository reads Abaqus input and result files to Matlab, then calculate the J-integral for specific 2D problems. Two examples calculate the mixed cracks of a homogeneous plate (HOMI) and functionally graded material plate (FGMII), respectively. The detailed information of the examples can be found in the following papers, which can also be found in the folder [`papers`](https://github.com/lyk6756/abq2mat_j-integral/tree/main/papers).
 
 ## Project repository
 
@@ -118,7 +118,7 @@ All,
 
 Copy the input file (`.inp`) and result file (`.fil`) generated in the folder `1.model` to the folder `2.abq2mat`. In the folder `2.abq2mat`, run script `main_getdata.m` in Matlab to get the model information. The obtained model information will be stored as a Matlab data file (`.mat`).
 
-**Note** that inscript `main_getdata.m`, gadget [abaqusMesh2Matlab][abaqusMesh2Matlab] is used to read the Abaqus input file (`.inp`), and [Abaqus2Matlab V2.0][Abaqus2Matlab][^1] to Abaqus result file (`.fil`). These two gadgets should be installed before running `main_getdata.m`. The relevant files can be found in the folder [`gadgets`](/gadgets/).
+**Note** that inscript `main_getdata.m`, gadget [abaqusMesh2Matlab][abaqusMesh2Matlab] is used to read the Abaqus input file (`.inp`), and [Abaqus2Matlab V2.0][Abaqus2Matlab][^1] to Abaqus result file (`.fil`). These two gadgets should be installed before running `main_getdata.m`. The relevant files can be found in the folder [`gadgets`](https://github.com/lyk6756/abq2mat_j-integral/tree/main/gadgets/).
 
 ### Step 3: *J*-integral in Matlab
 
