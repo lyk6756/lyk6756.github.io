@@ -1,28 +1,6 @@
 ---
 layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  About
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
+title:  "关于 About"
 key: page-about
 article_header:
   type: overlay
@@ -43,9 +21,15 @@ article_header:
 
 欢迎你，我的朋友！:raised_hands:
 
+Greetings, my friend! :raised_hands:
+
 我是李宇琨，来自于中原的一名90后。目前求学东北，攻读博士学位。:artificial_satellite:
 
+I am Yukun Li, Gen Y from Central China. Studying for my doctorate at Northeast China right now :artificial_satellite:
+
 愿你从这里获得灵感 :bulb:
+
+Wish you touch spark of inspiration :bulb:
 
 May the force be with you :pray:
 
@@ -55,9 +39,15 @@ May the force be with you :pray:
 
 本博客使用主题[TeXt][TeXt]。
 
+This blog uses theme [TeXt][TeXt].
+
 >TeXt 是针对个人或团队网站、博客、项目、文档等的一款高度可定制的 Jekyll 主题。它参考了 iOS 11 的风格，有大而突出的标题和圆润的按钮及卡片。
+>
+>TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
 此主题是由国人[Tian Qi][TianQi]为自己的博客而制作的。关于安装和设置说明以及源代码详见[kitian616/jekyll-TeXt-theme][kitian616/jekyll-TeXt-theme]。
+
+This theme is created by [Tian Qi][TianQi] for his blog. Refer to [kitian616/jekyll-TeXt-theme][kitian616/jekyll-TeXt-theme] for further instructions.
 
 [TeXt]: https://tianqi.name/jekyll-TeXt-theme/
 [TianQi]: https://tianqi.name
@@ -65,6 +55,12 @@ May the force be with you :pray:
 
 ---
 
-## Hi there! :wave:
+## 嘿！ Hi there!
 
-Send a :email: to my :mailbox_with_mail: right here :point_down:
+:soccer: :basketball: :football:
+
+快来给我留言吧 :point_down:
+
+Leave me a :email: here :point_down:
+
+:video_game: :game_die: :dart:
