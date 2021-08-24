@@ -25,7 +25,7 @@ Greetings, my friend! :raised_hands:
 
 我是李宇琨，来自于中原的一名90后。目前求学东北，攻读博士学位。:artificial_satellite:
 
-I am Yukun Li, Gen Y from Central China. Studying for my doctorate at Northeast China right now :artificial_satellite:
+I am Yukun Li, Gen Y from Central China. Studying for my PhD at Northeast China right now :artificial_satellite:
 
 愿你从这里获得灵感 :bulb:
 
