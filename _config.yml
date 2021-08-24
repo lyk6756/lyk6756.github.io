@@ -131,6 +131,7 @@ comments:
     clientSecret: b3c1ad38f94cb6d3e26114dee4427615bebd2e35 # GitHub Application Client Secret
     repository  : lyk6756.github.io # GitHub repo
     owner       : lyk6756 # GitHub repo owner
+    proxy       : https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       lyk6756 # - your GitHub Id
 
