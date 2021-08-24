@@ -29,7 +29,7 @@ I am Yukun Li, Gen Y from Central China. Studying for my doctorate at Northeast 
 
 愿你从这里获得灵感 :bulb:
 
-Wish you touch spark of inspiration :bulb:
+Wish you a touch spark of inspiration :bulb:
 
 May the force be with you :pray:
 
