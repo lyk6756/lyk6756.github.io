@@ -11,7 +11,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: "https://moose.inl.gov/marmot/SiteAssets/SitePages/Sample%20Applications/sa1.png"
+    src: "https://dm2305files.storage.live.com/y4m8dk_trIXJZ-XVzYrAG3o0qDHYnPkFCsB6-SXosExTy6ZjBSLs575rE5hyfFaHxen1Am06tqpdKc40uR2T9g7Wl-nvRcOVl0toamKKhL35pXR3XdPq3mmW19lLmqrZXrpmRU6g-8Oyy8KmVgZZ3031RA3WUXgT-_09koO0B557r3jFoBgMFdug8kxwJaItFBf?width=1362&height=1071&cropmode=none"
 ---
 
 ### Notable software packages and available codes that implement the finite element method for solving phase-field fracture (PFF) models
