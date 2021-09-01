@@ -3,13 +3,12 @@ layout: article
 title:  "About"
 key: page-about
 article_header:
-  type: cover
-  theme: dark
-  image:
+  type: overlay
+  background_image:
     src: "/assets/images/header_image.jpg"
 ---
 
-## 关于我 About Me
+## About Me
 
 <div  align="center">
 <img src="https://nmqziq.dm.files.1drv.com/y4mHU8hHM3HBD8HCpysPAiWxcQTbGx6w0AygRZKNGWuCrAxYuLf7R_cb9IrLY5XAPTEZoJ8oYCvGE_PXJbMNbw9EaP0HirjPHsF5Z4ImWBgzsrccvliOsZsKwcTUstisEcxTmSWM1t2NtiIf2wzWpjsGnPNPQ6gYqvxxjMfsxlZzaaKBbVafcBlgf6nmunDEo7IcybU1ImGs0ZPPtkG8GiPJw?width=1440&height=1080&cropmode=none" width = "400" height = "300">
@@ -33,7 +32,7 @@ May the force be with you :pray:
 
 :helicopter: :airplane: :rocket:
 
-## 关于此主题 About This Theme
+## About This Theme
 
 本博客使用主题[TeXt][TeXt]。
 
