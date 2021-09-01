@@ -4,6 +4,7 @@ title:  "About"
 key: page-about
 article_header:
   type: overlay
+  theme: dark
   background_image:
     src: "/assets/images/header_image.jpg"
 ---
