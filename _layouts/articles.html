@@ -31,6 +31,15 @@ layout: page
 
 {%- assign _type = page.articles.type | default: layout.articles.type -%}
 
+<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover }});"{% endif %}>
+  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+    <header class="site-header">
+      <h1 class="title">{{ site.title }}</h1>
+      {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+    </header>
+  </div>
+</div>
+
 {%- if _articles -%}
 
   <div class="layout--articles">
