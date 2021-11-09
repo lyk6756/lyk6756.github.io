@@ -27,7 +27,7 @@ article_header:
 |------------------------------------+--------------------+------------+---------------------------------------------------------------------------------------|
 | [deal.II][deal][^deal]             | C++                | Free       | [Heister][Heister][^Heister]                                                          |
 |------------------------------------+--------------------+------------+---------------------------------------------------------------------------------------|
-| [FEniCS][FEniCS][^FEniCS]          | C++ & Python       | Free       | [Ratna][Ratna][^Ratna], [Martínez-Pañeda][Martínez-Pañeda][^Martinez-Paneda1]         |
+| [FEniCS][FEniCS][^FEniCS]          | C++ & Python       | Free       | [Farrell][Farrell][^Farrell], [Ratna][Ratna][^Ratna], [Martínez-Pañeda][Martínez-Pañeda][^Martinez-Paneda1]         |
 |------------------------------------+--------------------+------------+---------------------------------------------------------------------------------------|
 | [COMSOL][COMSOL]                   | MATLAB             | Commercial | [Zhou et al.][Zhou][^Zhou], [Wu][Wu1][^Wu1]                                           |
 |------------------------------------+--------------------+------------+---------------------------------------------------------------------------------------|
@@ -42,6 +42,7 @@ article_header:
 [deal]: https://www.dealii.org/ "deal"
 [Heister]: https://github.com/tjhei/cracks "Heister"
 [FEniCS]: https://fenicsproject.org/ "FEniCS"
+[Farrell]: https://bitbucket.org/pefarrell/varfrac-solvers "Farrell"
 [Ratna]: https://home.iitm.ac.in/ratna/codes/phasefield/ "Ratna"
 [Martínez-Pañeda]: https://www.empaneda.com/codes/ "Martínez-Pañeda"
 [COMSOL]: https://www.comsol.com/ "COMSOL"
@@ -82,6 +83,8 @@ article_header:
     [HEISTER T, WICK T. Parallel solution, adaptivity, computational convergence, and open-source code of 2d and 3d pressurized phase-ﬁeld fracture problems. PAMM, 2018, 18(1).](https://doi.org/10.1002/pamm.201800353)
 
 [^FEniCS]: [ALNÆS M S, BLECHTA J, HAKE J, et al. The fenics project version 1.5. Archive of Numerical Software, 2015, 3(100).](https://doi.org/10.11588/ans.2015.100.20553)
+
+[^Farrell]: [FARRELL P, MAURINI C. Linear and nonlinear solvers for variational phase-ﬁeld models of brittle fracture. International Journal for Numerical Methods in Engineering, 2016, 109(5): 648-667.](https://doi.org/10.1002/nme.5300)
 
 [^Ratna]: [HIRSHIKESH, NATARAJAN S, ANNABATTULA R K. A FEniCS implementation of the phase ﬁeld method for quasi-static brittle fracture. Frontiers of Structural and Civil Engineering, 2018, 13(2): 380-396.](https://doi.org/10.1007/s11709-018-0471-9)
 
