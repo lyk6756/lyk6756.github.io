@@ -92,7 +92,7 @@ article_header:
 
 [^Zhou]: [ZHOU S, RABCZUK T, ZHUANG X. Phase ﬁeld modeling of quasi-static and dynamic crack propagation: COMSOL implementation and case studies. Advances in Engineering Software, 2018, 122: 31-49.](https://doi.org/10.1016/j.advengsoft.2018.03.012)
 
-[^Wu1]: WU J Y, CHEN W X. Phase-ﬁeld modeling of electromechanical fracture in piezoelectric solids: Analytical results and numerical simulations. Computer Methods in Applied Mechanics and Engineering, 2021.
+[^Wu1]: [WU J Y, CHEN W X. Phase-ﬁeld modeling of electromechanical fracture in piezoelectric solids: Analytical results and numerical simulations. Computer Methods in Applied Mechanics and Engineering, 2021.](https://doi.org/10.1016/j.cma.2021.114125)
 
 [^Molnar]: [MOLNÁR G, GRAVOUIL A. 2d and 3d abaqus implementation of a robust staggered phase-ﬁeld solution for modeling brittle fracture. Finite Elements in Analysis and Design, 2017, 130: 27-38.](https://doi.org/10.1016/j.finel.2017.03.002)
 
