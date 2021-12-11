@@ -94,6 +94,8 @@ article_header:
 
 [^Wu1]: [WU J Y, CHEN W X. Phase-ﬁeld modeling of electromechanical fracture in piezoelectric solids: Analytical results and numerical simulations. Computer Methods in Applied Mechanics and Engineering, 2021.](https://doi.org/10.1016/j.cma.2021.114125)
 
+    [CHEN W X, WU J Y. Phase-field cohesive zone modeling of multi-physical fracture in solids and the open-source implementation in Comsol Multiphysics. Theoretical and Applied Fracture Mechanics, 2022, 117: 103153](https://doi.org/10.1016/j.tafmec.2021.103153)
+
 [^Molnar]: [MOLNÁR G, GRAVOUIL A. 2d and 3d abaqus implementation of a robust staggered phase-ﬁeld solution for modeling brittle fracture. Finite Elements in Analysis and Design, 2017, 130: 27-38.](https://doi.org/10.1016/j.finel.2017.03.002)
 
     [MOLNÁR G, GRAVOUIL A, SEGHIR R, et al. An open-source abaqus implementation of the phase-ﬁeld method to study the eﬀect of plasticity on the instantaneous fracture toughness in dynamic crack propagation. Computer Methods in Applied Mechanics and Engineering, 2020, 365: 113004.](https://doi.org/10.1016/j.cma.2020.113004)
