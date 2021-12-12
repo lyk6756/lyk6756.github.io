@@ -100,7 +100,7 @@ sphinx-autobuild . _build/html
 
 更加详细的说明文档可参考[reStructuredText Primer](http://www.sphinx-doc.org/en/stable/rest.html)或[reStructuredText 简介](http://zh-sphinx-doc.readthedocs.io/en/latest/rest.html)。
 
-或者也可以参考这里：[reStructuredText 简明教程](http://jwch.sdut.edu.cn/book/rst.html)
+或者也可以参考这里：[reStructuredText 简明教程](https://book42qu.readthedocs.io/en/latest/rst.html) 或 [reStructuredText简明教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/helloworld.html)
 
 ## 文档托管
 
