@@ -15,7 +15,7 @@ article_header:
 ---
 
 
-# 前言
+## 前言
 
 [Sphinx](http://www.sphinx-doc.org/en/stable/)是一个基于Python的用于创建文档的工具。它最早是用来制作Python语言的帮助文档。具有以下特征：
 
@@ -28,22 +28,28 @@ article_header:
 
 Sphinx使用[reStructuredText](http://docutils.sourceforge.net/rst.html)作为标记语言，它的优势来自于reStructuredText语言的强大和直接，及其解析和翻译套件[Docutils](http://docutils.sourceforge.net/)。
 
-
-# 安装和快速开始
+## 安装和快速开始
 
 对于已经安装有Python的系统，可以直接使用pip安装Sphinx：
 
-```
+```shell
 pip install sphinx sphinx-autobuild
 ```
 
 完成安装之后，可以在命令窗口输入`sphinx-build -h`来查看sphinx的版本号和该指令的其他控制参数。
 
+在macOS平台下，使用Homebrew安装是更加便捷的方式之一，安装完成后需要将其添加至PATH中：
+
+```shell
+brew install sphinx-doc
+brew link sphinx-doc --force
+```
+
 关于不同平台下更详细的安装说明，可参考[Installing Sphinx](http://www.sphinx-doc.org/en/stable/install.html)。
 
 在需要创建文档的目录下，直接在命令行中输入：
 
-```
+```shell
 sphinx-quickstart
 ```
 
@@ -51,7 +57,7 @@ sphinx-quickstart
 
 在完成了向导配置之后，运行
 
-```
+```shell
 make html
 ```
 
@@ -59,26 +65,23 @@ make html
 
 还可以使用`sphinx-autobuild`来自动重载文档。运行下面指令来实现：
 
-```
+```shell
 sphinx-autobuild . _build/html
 ```
 
-
-# 添加内容
+## 添加内容
 
 如果要想快速开始使用Sphinx，可以参考[First Steps with Sphinx](http://www.sphinx-doc.org/en/stable/tutorial.html)或[Sphinx初尝](http://zh-sphinx-doc.readthedocs.io/en/latest/tutorial.html)。
 
 更加详细的说明文档可参考[Sphinx documentation](http://www.sphinx-doc.org/en/stable/contents.html)或[Sphinx 使用手册](http://zh-sphinx-doc.readthedocs.io/en/latest/index.html)。
 
-或者也可以参考这里：[使用sphinx记笔记](http://jwch.sdut.edu.cn/book/tool/UseSphinx.html)。
-
-## 配置文档
+### 配置文档
 
 使用`sphinx-quickstart`指令将生成包括`conf.py`在内的配置文件，以及一份主文档文件`index.rst`。
 
 `conf.py`文件包含了该sphinx工程的所有配置选项，包括一些无法在`sphinx-quickstart`向导中进行设置的复杂选项。更加详细的`conf.py`配置内容可参考[The build configuration file](http://www.sphinx-doc.org/en/stable/config.html)。
 
-## rST简介
+### rST简介
 
 [reStructuredText](http://docutils.sourceforge.net/rst.html)是一种易于阅读、所见即所得的纯文本标记语言。它非常利于快速创建简单的网页和独立的文档，尤其是程序的参考手册。reStructuredText是专门为了特定应用的扩展性而设计的，它的解析器是[Docutils](http://docutils.sourceforge.net/index.html)的一个组件。
 
@@ -99,8 +102,7 @@ sphinx-autobuild . _build/html
 
 或者也可以参考这里：[reStructuredText 简明教程](http://jwch.sdut.edu.cn/book/rst.html)
 
-
-# 文档托管
+## 文档托管
 
 [Read the Docs](https://readthedocs.org/)是一个基于Sphinx的在线文档托管系统，使得文档完全可搜索且易于查找。它从在线的Subversion、Bazaar、Git或Mercurial仓库获取到基于Sphinx创建的文档代码，生成文档并为用户托管。
 
@@ -112,8 +114,7 @@ Read the Docs是一个开源的项目，可以免费地在GitHub上获取到[项
 
 同时，readthedocs在GitHub上也有为初学者准备的[演示代码](https://github.com/readthedocs/template)，供大家学习使用。
 
-
-# 延伸阅读
+## 延伸阅读
 
 * [Sphinx](http://www.sphinx-doc.org/en/stable/) / [Documentation](http://www.sphinx-doc.org/en/stable/contents.html) / [First Steps with Sphinx](http://www.sphinx-doc.org/en/stable/tutorial.html) / [reStructuredText Primer](http://www.sphinx-doc.org/en/stable/rest.html)
 * [Sphinx 文档目录 — Sphinx 使用手册](http://zh-sphinx-doc.readthedocs.io/en/latest/contents.html) / [reStructuredText 简介](http://zh-sphinx-doc.readthedocs.io/en/latest/rest.html)
