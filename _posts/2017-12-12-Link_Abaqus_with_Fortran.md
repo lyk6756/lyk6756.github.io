@@ -90,18 +90,22 @@ academic=TEACHING
 
 ## 设置Abaqus CAE及Abaqus Command启动方式
 
+### 方法1
+
 为了能够在启动Abaqus时默认加载Intel Fortran Compiler，需要对启动Abaqus的快捷方式进行修改：
 
-找到启动Abaqus CAE的批处理文件`launcher.bat`。默认路径为`C:\SIMULIA\CAE\2017\win_b64\resources\install\cae\launcher.bat`。右键点击`编辑`，在其中添加启动Visual Studio和Fortran编译器的指令
+找到启动Abaqus CAE的批处理文件`launcher.bat`。默认路径为`C:\SIMULIA\CAE\2017\win_b64\resources\install\cae\launcher.bat`。右键点击`编辑`，在文件开头添加启动Visual Studio和Fortran编译器的指令
 
 ```
-@call "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64\vcvars64.bat"
+@call "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64\vcvars64.bat" X64
 @call "C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.4.246\windows\bin\ifortvars.bat" intel64 vs2013
 ```
 
 这样就完成了关联配置工作。
 
-或参考：[Abaqus2019关联VS2017和IVF2019](http://www.kudincha.cn/156.html)
+或参考：[Abaqus2019关联VS2017和IVF2019](https://cloud.tencent.com/developer/article/1421171)
+
+### 方法2
 
 另一种关联方法是对快捷方式的目标进行设置：
 
@@ -130,6 +134,18 @@ C:\Windows\system32\cmd.exe /k
 ```
 
 在运行时，需要用户提供管理员权限。
+
+### 方法3
+
+还有一种关联方法是对`Commands`文件夹中的启动器进行修改：
+
+打开`Commands`文件夹（默认路径为`C:\SIMULIA\Commands`）中的启动文件`abq2017.bat`，并在倒数第二行添加
+
+```
+@call ifortvars.bat intel64 vs2013
+```
+
+这样就完成了关联配置工作。
 
 ### 验证
 
